@@ -1,18 +1,2 @@
-@font-face {
-    font-family:Montserrat ;
-    src: url(/Jornada-viagens/fonts/Montserrat-VariableFont_wght.ttf);
-    font-display: swap;
-}
-
-:root{
-    --background-primary-color:#000000;
-    --background-secondary-color:#F5F5F5;
-    --background-tertiary-color:#FFFFFF;
-
-    --butoon-primary-color:#8F0101;
-    --butoon-secondary-color:#B81515;
-
-    --text-primary-color:#222222;
-    --text-secondary-color:#FFFFFF;
-    
-}
+@import url(global.css);
+@import url(header.css);
