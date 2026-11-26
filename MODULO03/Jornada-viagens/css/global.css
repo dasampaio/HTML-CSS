@@ -16,7 +16,8 @@ button {
 
 @font-face {
   font-family: Montserrat;
-  src: url(/Jornada-viagens/fonts/Montserrat-VariableFont_wght.ttf);
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+  font-style: normal;
   font-display: swap;
 }
 
@@ -30,4 +31,7 @@ button {
 
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
+}
+body{
+  font-family:"Montserrat";
 }
